@@ -1,0 +1,1051 @@
+{
+  "meta": {
+    "generatedBy": "scripts/auditPlayerDatasets.js",
+    "master": "processed/master_players.json",
+    "masterCount": 1317
+  },
+  "totals": {
+    "exact": 3416,
+    "likely": 46,
+    "ambiguous": 4,
+    "new": 3,
+    "duplicates": 23,
+    "seasonSplit": 19,
+    "conflicts": 18
+  },
+  "datasets": {
+    "sold-2022-2023": {
+      "file": "src\\data\\players\\IPL_2023-22_Sold_Players.csv",
+      "records": 284,
+      "columns": [
+        "Season",
+        "Name",
+        "Nationality",
+        "Type",
+        "Team",
+        "Price"
+      ],
+      "exact": 273,
+      "likely": 10,
+      "ambiguous": 1,
+      "new": 0,
+      "duplicates": [],
+      "crossSeasonSlugs": [
+        {
+          "slug": "ajinkya-rahane",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "manish-pandey",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "shivam-mavi",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "k-s-bharat",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "odean-smith",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "vaibhav-arora",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "n-jagadeesan",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "mandeep-singh",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "nicholas-pooran",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "romario-shepherd",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "daniel-sams",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "prerak-mankad",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "jaydev-unadkat",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "vishnu-vinod",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "jason-holder",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "murugan-ashwin",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "k-m-asif",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "mayank-markande",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        },
+        {
+          "slug": "anmolpreet-singh",
+          "seasons": [
+            "2023",
+            "2022"
+          ]
+        }
+      ],
+      "conflicts": [],
+      "likelyRows": [
+        {
+          "aux": "R. Sai Kishore",
+          "master": "Sai Kishore"
+        },
+        {
+          "aux": "B. Sai Sudharsan",
+          "master": "Sai Sudharsan"
+        },
+        {
+          "aux": "Baba Indrajith",
+          "master": "B Indrajith"
+        },
+        {
+          "aux": "Dushmanta Chameera",
+          "master": "Dushmantha Chameera"
+        },
+        {
+          "aux": "N. Tilak Varma",
+          "master": "Tilak Varma"
+        },
+        {
+          "aux": "Raj Angad Bawa",
+          "master": "Rajangad Bawa"
+        },
+        {
+          "aux": "R. Ashwin",
+          "master": "Ravichandran Ashwin"
+        },
+        {
+          "aux": "Kuldip Yadav",
+          "master": "Kuldeep Yadav"
+        },
+        {
+          "aux": "Karn Sharma",
+          "master": "Karan Sharma"
+        },
+        {
+          "aux": "Suyash Prabhudessai",
+          "master": "Suyash S Prabhudessai"
+        }
+      ],
+      "ambiguousRows": [
+        {
+          "aux": "K. Gowtham",
+          "candidates": [
+            "Krishnappa Gowtham",
+            "V Gowtham"
+          ]
+        }
+      ],
+      "newCount": 0
+    },
+    "auction-list-2022": {
+      "file": "C:\\Users\\barat\\AppData\\Local\\Temp\\ipl-audit-archive\\2022 Auction\\IPL2022_Player_Auction_List.csv",
+      "records": 590,
+      "columns": [
+        "List Sr.No.",
+        "Set No.",
+        "2022 Set",
+        "First Name",
+        "Surname",
+        "Country",
+        "State Association",
+        "DOB",
+        "Age",
+        "Specialism",
+        "",
+        "",
+        "Test caps",
+        "ODI caps",
+        "T20 caps",
+        "IPL",
+        "Previous IPLTeam(s)",
+        "2021 Team",
+        "2021 IPL",
+        "C/U/A",
+        "Reserve Price Rs Lakh"
+      ],
+      "exact": 579,
+      "likely": 10,
+      "ambiguous": 1,
+      "new": 0,
+      "duplicates": [
+        {
+          "name": "Amit Mishra",
+          "season": "2022-pool",
+          "rows": [
+            50,
+            457
+          ]
+        },
+        {
+          "name": "Lalit Yadav",
+          "season": "2022-pool",
+          "rows": [
+            153,
+            492
+          ]
+        },
+        {
+          "name": "Shubham Singh",
+          "season": "2022-pool",
+          "rows": [
+            501,
+            510
+          ]
+        },
+        {
+          "name": "Shivam Sharma",
+          "season": "2022-pool",
+          "rows": [
+            478,
+            535
+          ]
+        }
+      ],
+      "crossSeasonSlugs": [],
+      "conflicts": [
+        {
+          "key": "2022-pool||amit-mishra",
+          "name": "Amit Mishra",
+          "roles": [
+            "BOWLER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            "DC",
+            ""
+          ]
+        },
+        {
+          "key": "2022-pool||lalit-yadav",
+          "name": "Lalit Yadav",
+          "roles": [
+            "ALL-ROUNDER",
+            "BOWLER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            "DC",
+            ""
+          ]
+        },
+        {
+          "key": "2022-pool||shubham-singh",
+          "name": "Shubham Singh",
+          "roles": [
+            "ALL-ROUNDER",
+            "BOWLER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            ""
+          ]
+        }
+      ],
+      "likelyRows": [
+        {
+          "aux": "R Ashwin",
+          "master": "Ravichandran Ashwin"
+        },
+        {
+          "aux": "R. Sai Kishore",
+          "master": "Sai Kishore"
+        },
+        {
+          "aux": "Dushmanta Chameera",
+          "master": "Dushmantha Chameera"
+        },
+        {
+          "aux": "Karn Sharma",
+          "master": "Karan Sharma"
+        },
+        {
+          "aux": "Raj Angad Bawa",
+          "master": "Rajangad Bawa"
+        },
+        {
+          "aux": "N. Tilak Varma",
+          "master": "Tilak Varma"
+        },
+        {
+          "aux": "Suyash Prabhudessai",
+          "master": "Suyash S Prabhudessai"
+        },
+        {
+          "aux": "B. Sai Sudharsan",
+          "master": "Sai Sudharsan"
+        },
+        {
+          "aux": "Baba Indrajith",
+          "master": "B Indrajith"
+        },
+        {
+          "aux": "Kuldip Yadav",
+          "master": "Kuldeep Yadav"
+        }
+      ],
+      "ambiguousRows": [
+        {
+          "aux": "K. Gowtham",
+          "candidates": [
+            "Krishnappa Gowtham",
+            "V Gowtham"
+          ]
+        }
+      ],
+      "newCount": 0
+    },
+    "sold-2022": {
+      "file": "C:\\Users\\barat\\AppData\\Local\\Temp\\ipl-audit-archive\\2022 Auction\\IPL_2022_Sold_Players.csv",
+      "records": 204,
+      "columns": [
+        "Players",
+        "Nationality",
+        "Type",
+        "Price Paid",
+        "Team"
+      ],
+      "exact": 193,
+      "likely": 10,
+      "ambiguous": 1,
+      "new": 0,
+      "duplicates": [],
+      "crossSeasonSlugs": [],
+      "conflicts": [],
+      "likelyRows": [
+        {
+          "aux": "R. Sai Kishore",
+          "master": "Sai Kishore"
+        },
+        {
+          "aux": "B. Sai Sudharsan",
+          "master": "Sai Sudharsan"
+        },
+        {
+          "aux": "Baba Indrajith",
+          "master": "B Indrajith"
+        },
+        {
+          "aux": "Dushmanta Chameera",
+          "master": "Dushmantha Chameera"
+        },
+        {
+          "aux": "N. Tilak Varma",
+          "master": "Tilak Varma"
+        },
+        {
+          "aux": "Raj Angad Bawa",
+          "master": "Rajangad Bawa"
+        },
+        {
+          "aux": "R. Ashwin",
+          "master": "Ravichandran Ashwin"
+        },
+        {
+          "aux": "Kuldip Yadav",
+          "master": "Kuldeep Yadav"
+        },
+        {
+          "aux": "Karn Sharma",
+          "master": "Karan Sharma"
+        },
+        {
+          "aux": "Suyash Prabhudessai",
+          "master": "Suyash S Prabhudessai"
+        }
+      ],
+      "ambiguousRows": [
+        {
+          "aux": "K. Gowtham",
+          "candidates": [
+            "Krishnappa Gowtham",
+            "V Gowtham"
+          ]
+        }
+      ],
+      "newCount": 0
+    },
+    "fulllist-2022": {
+      "file": "C:\\Users\\barat\\AppData\\Local\\Temp\\ipl-audit-archive\\2022 Auction\\IPL_Auction_2022_FullList.csv",
+      "records": 590,
+      "columns": [
+        "Players",
+        "2022 Set",
+        "Country",
+        "State Association",
+        "Age",
+        "Specialism",
+        "Batting Style",
+        "Bowling Style",
+        "Test caps",
+        "ODI caps",
+        "T20 caps",
+        "IPL",
+        "Previous IPLTeam(s)",
+        "2021 Team",
+        "2021 IPL",
+        "C/U/A",
+        "Reserve Price Rs Lakh",
+        "Price Paid",
+        "Team",
+        "Bid"
+      ],
+      "exact": 579,
+      "likely": 10,
+      "ambiguous": 1,
+      "new": 0,
+      "duplicates": [
+        {
+          "name": "Amit Mishra",
+          "season": "2022-pool",
+          "rows": [
+            50,
+            457
+          ]
+        },
+        {
+          "name": "Lalit Yadav",
+          "season": "2022-pool",
+          "rows": [
+            153,
+            492
+          ]
+        },
+        {
+          "name": "Shubham Singh",
+          "season": "2022-pool",
+          "rows": [
+            501,
+            510
+          ]
+        },
+        {
+          "name": "Shivam Sharma",
+          "season": "2022-pool",
+          "rows": [
+            478,
+            535
+          ]
+        }
+      ],
+      "crossSeasonSlugs": [],
+      "conflicts": [
+        {
+          "key": "2022-pool||lalit-yadav",
+          "name": "Lalit Yadav",
+          "roles": [
+            "ALL-ROUNDER",
+            "BOWLER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            "DC"
+          ]
+        },
+        {
+          "key": "2022-pool||shubham-singh",
+          "name": "Shubham Singh",
+          "roles": [
+            "ALL-ROUNDER",
+            "BOWLER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            "UnSold"
+          ]
+        }
+      ],
+      "likelyRows": [
+        {
+          "aux": "R Ashwin",
+          "master": "Ravichandran Ashwin"
+        },
+        {
+          "aux": "R Sai Kishore",
+          "master": "Sai Kishore"
+        },
+        {
+          "aux": "Dushmanta Chameera",
+          "master": "Dushmantha Chameera"
+        },
+        {
+          "aux": "Karn Sharma",
+          "master": "Karan Sharma"
+        },
+        {
+          "aux": "Raj Angad Bawa",
+          "master": "Rajangad Bawa"
+        },
+        {
+          "aux": "N Tilak Varma",
+          "master": "Tilak Varma"
+        },
+        {
+          "aux": "Suyash Prabhudessai",
+          "master": "Suyash S Prabhudessai"
+        },
+        {
+          "aux": "B Sai Sudharsan",
+          "master": "Sai Sudharsan"
+        },
+        {
+          "aux": "Baba Indrajith",
+          "master": "B Indrajith"
+        },
+        {
+          "aux": "Kuldip Yadav",
+          "master": "Kuldeep Yadav"
+        }
+      ],
+      "ambiguousRows": [
+        {
+          "aux": "K Gowtham",
+          "candidates": [
+            "Krishnappa Gowtham",
+            "V Gowtham"
+          ]
+        }
+      ],
+      "newCount": 0
+    },
+    "pool-2023": {
+      "file": "C:\\Users\\barat\\AppData\\Local\\Temp\\ipl-audit-archive\\2023 Auction\\IPL_2023_Auction_Pool.csv",
+      "records": 405,
+      "columns": [
+        "Set No.",
+        "2023 Set",
+        "First Name",
+        "Surname",
+        "Country",
+        "Association",
+        "DOB",
+        "Age",
+        "Specialism",
+        "Batting_Style",
+        "Bowling_Style",
+        "Test caps",
+        "ODI caps",
+        "T20 caps",
+        "IPL",
+        "Previous IPLTeam(s)",
+        "2022 Team",
+        "2022 IPL",
+        "C/U/A",
+        "Reserve_Price"
+      ],
+      "exact": 402,
+      "likely": 2,
+      "ambiguous": 0,
+      "new": 1,
+      "duplicates": [
+        {
+          "name": "Akash Singh",
+          "season": "2023-pool",
+          "rows": [
+            136,
+            186
+          ]
+        },
+        {
+          "name": "Prince Yadav",
+          "season": "2023-pool",
+          "rows": [
+            223,
+            370
+          ]
+        },
+        {
+          "name": "Shivam Sharma",
+          "season": "2023-pool",
+          "rows": [
+            147,
+            378
+          ]
+        }
+      ],
+      "crossSeasonSlugs": [],
+      "conflicts": [
+        {
+          "key": "2023-pool||akash-singh",
+          "name": "Akash Singh",
+          "roles": [
+            "BOWLER",
+            "BATSMAN"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            "Do No Play"
+          ]
+        },
+        {
+          "key": "2023-pool||shivam-sharma",
+          "name": "Shivam Sharma",
+          "roles": [
+            "BOWLER",
+            "ALL-ROUNDER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            "Do No Play"
+          ]
+        },
+        {
+          "key": "2023-pool||prince-yadav",
+          "name": "Prince Yadav",
+          "roles": [
+            "BOWLER",
+            "ALL-ROUNDER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            "Do No Play"
+          ]
+        }
+      ],
+      "likelyRows": [
+        {
+          "aux": "Dushmanta Chameera",
+          "master": "Dushmantha Chameera"
+        },
+        {
+          "aux": "Baba Indrajith",
+          "master": "B Indrajith"
+        }
+      ],
+      "ambiguousRows": [],
+      "newNames": [
+        "Jimmy Neesham"
+      ],
+      "newCount": 1
+    },
+    "sold-2023": {
+      "file": "C:\\Users\\barat\\AppData\\Local\\Temp\\ipl-audit-archive\\2023 Auction\\IPL_2023_Auction_Sold.csv",
+      "records": 405,
+      "columns": [
+        "Set No.",
+        "2023 Set",
+        "First Name",
+        "Surname",
+        "Country",
+        "Association",
+        "DOB",
+        "Age",
+        "Specialism",
+        "Batting_Style",
+        "Bowling_Style",
+        "Test caps",
+        "ODI caps",
+        "T20 caps",
+        "IPL",
+        "Previous IPLTeam(s)",
+        "2022 Team",
+        "2022 IPL",
+        "C/U/A",
+        "Reserve_Price",
+        "TEAM",
+        "Auction_Price"
+      ],
+      "exact": 402,
+      "likely": 2,
+      "ambiguous": 0,
+      "new": 1,
+      "duplicates": [
+        {
+          "name": "Akash Singh",
+          "season": "2023",
+          "rows": [
+            136,
+            186
+          ]
+        },
+        {
+          "name": "Prince Yadav",
+          "season": "2023",
+          "rows": [
+            223,
+            370
+          ]
+        },
+        {
+          "name": "Shivam Sharma",
+          "season": "2023",
+          "rows": [
+            147,
+            378
+          ]
+        }
+      ],
+      "crossSeasonSlugs": [],
+      "conflicts": [
+        {
+          "key": "2023||akash-singh",
+          "name": "Akash Singh",
+          "roles": [
+            "BOWLER",
+            "BATSMAN"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            "UnSold"
+          ]
+        },
+        {
+          "key": "2023||shivam-sharma",
+          "name": "Shivam Sharma",
+          "roles": [
+            "BOWLER",
+            "ALL-ROUNDER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            "UnSold"
+          ]
+        },
+        {
+          "key": "2023||prince-yadav",
+          "name": "Prince Yadav",
+          "roles": [
+            "BOWLER",
+            "ALL-ROUNDER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            "UnSold"
+          ]
+        }
+      ],
+      "likelyRows": [
+        {
+          "aux": "Dushmanta Chameera",
+          "master": "Dushmantha Chameera"
+        },
+        {
+          "aux": "Baba Indrajith",
+          "master": "B Indrajith"
+        }
+      ],
+      "ambiguousRows": [],
+      "newNames": [
+        "Jimmy Neesham"
+      ],
+      "newCount": 1
+    },
+    "submitted-2023": {
+      "file": "C:\\Users\\barat\\AppData\\Local\\Temp\\ipl-audit-archive\\2023 Auction\\IPL_2023_Auction_Submitted.csv",
+      "records": 991,
+      "columns": [
+        "First Name",
+        "Surname",
+        "Reserve Price (Rs. Lakh)",
+        "Country",
+        "Age",
+        "Role",
+        "Test caps",
+        "ODI caps",
+        "T20 caps",
+        "IPL",
+        "Previous IPL Team(s)",
+        "2022 Team",
+        "IPL 2022 Appearances",
+        "C/U/A"
+      ],
+      "exact": 988,
+      "likely": 2,
+      "ambiguous": 0,
+      "new": 1,
+      "duplicates": [
+        {
+          "name": "Ansh Patel",
+          "season": "2023-pool",
+          "rows": [
+            331,
+            332
+          ]
+        },
+        {
+          "name": "Himanshu Singh",
+          "season": "2023-pool",
+          "rows": [
+            364,
+            690
+          ]
+        },
+        {
+          "name": "Akash Singh",
+          "season": "2023-pool",
+          "rows": [
+            321,
+            714
+          ]
+        },
+        {
+          "name": "Shubham Sharma",
+          "season": "2023-pool",
+          "rows": [
+            709,
+            747
+          ]
+        },
+        {
+          "name": "Bharat Sharma",
+          "season": "2023-pool",
+          "rows": [
+            412,
+            748
+          ]
+        },
+        {
+          "name": "Yuvraj Singh",
+          "season": "2023-pool",
+          "rows": [
+            539,
+            768
+          ]
+        },
+        {
+          "name": "Smit Patel",
+          "season": "2023-pool",
+          "rows": [
+            510,
+            787
+          ]
+        },
+        {
+          "name": "Shivam Sharma",
+          "season": "2023-pool",
+          "rows": [
+            230,
+            868
+          ]
+        },
+        {
+          "name": "Prince Yadav",
+          "season": "2023-pool",
+          "rows": [
+            489,
+            875
+          ]
+        }
+      ],
+      "crossSeasonSlugs": [],
+      "conflicts": [
+        {
+          "key": "2023-pool||shivam-sharma",
+          "name": "Shivam Sharma",
+          "roles": [
+            "ALL-ROUNDER",
+            "BOWLER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            ""
+          ]
+        },
+        {
+          "key": "2023-pool||akash-singh",
+          "name": "Akash Singh",
+          "roles": [
+            "BATSMAN",
+            "BOWLER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            ""
+          ]
+        },
+        {
+          "key": "2023-pool||ansh-patel",
+          "name": "Ansh Patel",
+          "roles": [
+            "BOWLER",
+            "ALL-ROUNDER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            ""
+          ]
+        },
+        {
+          "key": "2023-pool||himanshu-singh",
+          "name": "Himanshu Singh",
+          "roles": [
+            "BOWLER",
+            "ALL-ROUNDER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            ""
+          ]
+        },
+        {
+          "key": "2023-pool||prince-yadav",
+          "name": "Prince Yadav",
+          "roles": [
+            "BOWLER",
+            "ALL-ROUNDER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            ""
+          ]
+        },
+        {
+          "key": "2023-pool||smit-patel",
+          "name": "Smit Patel",
+          "roles": [
+            "BATSMAN",
+            "BOWLER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            ""
+          ]
+        },
+        {
+          "key": "2023-pool||yuvraj-singh",
+          "name": "Yuvraj Singh",
+          "roles": [
+            "BATSMAN",
+            "ALL-ROUNDER"
+          ],
+          "countries": [
+            "India"
+          ],
+          "teams": [
+            ""
+          ]
+        }
+      ],
+      "likelyRows": [
+        {
+          "aux": "Dushmanta Chameera",
+          "master": "Dushmantha Chameera"
+        },
+        {
+          "aux": "Baba Indrajith",
+          "master": "B Indrajith"
+        }
+      ],
+      "ambiguousRows": [],
+      "newNames": [
+        "Jimmy Neesham"
+      ],
+      "newCount": 1
+    }
+  }
+}

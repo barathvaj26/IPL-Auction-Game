@@ -1,0 +1,2622 @@
+{
+  "meta": {
+    "generatedBy": "scripts/buildPlayerDatabase.js",
+    "schemaVersion": 2
+  },
+  "baseCount": 182,
+  "finalCount": 1317,
+  "exactMerges": 2258,
+  "allowlistMerges": 53,
+  "allowlistUsed": [
+    "b-sai-sudharsan",
+    "baba-indrajith",
+    "dushmanta-chameera",
+    "jimmy-neesham",
+    "k-gowtham",
+    "karn-sharma",
+    "kuldip-yadav",
+    "n-tilak-varma",
+    "r-ashwin",
+    "r-sai-kishore",
+    "raj-angad-bawa",
+    "suyash-prabhudessai"
+  ],
+  "ambiguousExcluded": 18,
+  "ambiguousSamples": [
+    {
+      "dataset": "sold-2023",
+      "aux": "Sanvir Singh",
+      "candidates": [
+        "Simarjeet Singh",
+        "Shashank Singh"
+      ]
+    },
+    {
+      "dataset": "sold-2023",
+      "aux": "Akash Singh",
+      "candidates": [
+        "Anmolpreet Singh",
+        "Arshdeep Singh"
+      ]
+    },
+    {
+      "dataset": "sold-2023",
+      "aux": "Swapnil Singh",
+      "candidates": [
+        "Simarjeet Singh",
+        "Shashank Singh"
+      ]
+    },
+    {
+      "dataset": "sold-2023",
+      "aux": "Avinash Singh",
+      "candidates": [
+        "Anmolpreet Singh",
+        "Arshdeep Singh"
+      ]
+    },
+    {
+      "dataset": "sold-2023",
+      "aux": "Shubham Singh",
+      "candidates": [
+        "Simarjeet Singh",
+        "Shashank Singh"
+      ]
+    },
+    {
+      "dataset": "sold-2023",
+      "aux": "Rajeev Singh",
+      "candidates": [
+        "Rinku Singh",
+        "Ramandeep Singh"
+      ]
+    },
+    {
+      "dataset": "sold-2023",
+      "aux": "Salman Khan",
+      "candidates": [
+        "Sarfaraz Khan",
+        "Shahrukh Khan"
+      ]
+    },
+    {
+      "dataset": "sold-2023",
+      "aux": "Rajandeep Singh",
+      "candidates": [
+        "Rinku Singh",
+        "Ramandeep Singh"
+      ]
+    },
+    {
+      "dataset": "sold-2023",
+      "aux": "Anunay Singh",
+      "candidates": [
+        "Anmolpreet Singh",
+        "Arshdeep Singh"
+      ]
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "aux": "Shivam Singh",
+      "candidates": [
+        "Simarjeet Singh",
+        "Shashank Singh"
+      ]
+    },
+    {
+      "dataset": "submitted-2023",
+      "aux": "Sachin Singh",
+      "candidates": [
+        "Simarjeet Singh",
+        "Shashank Singh"
+      ]
+    },
+    {
+      "dataset": "submitted-2023",
+      "aux": "Subham Singh",
+      "candidates": [
+        "Simarjeet Singh",
+        "Shashank Singh"
+      ]
+    },
+    {
+      "dataset": "submitted-2023",
+      "aux": "Sidak Singh",
+      "candidates": [
+        "Simarjeet Singh",
+        "Shashank Singh"
+      ]
+    },
+    {
+      "dataset": "submitted-2023",
+      "aux": "Aayush Singh",
+      "candidates": [
+        "Anmolpreet Singh",
+        "Arshdeep Singh"
+      ]
+    },
+    {
+      "dataset": "submitted-2023",
+      "aux": "Adarsh Singh",
+      "candidates": [
+        "Anmolpreet Singh",
+        "Arshdeep Singh"
+      ]
+    },
+    {
+      "dataset": "submitted-2023",
+      "aux": "Ankush Singh",
+      "candidates": [
+        "Anmolpreet Singh",
+        "Arshdeep Singh"
+      ]
+    },
+    {
+      "dataset": "submitted-2023",
+      "aux": "Sumit Singh",
+      "candidates": [
+        "Simarjeet Singh",
+        "Shashank Singh"
+      ]
+    },
+    {
+      "dataset": "submitted-2023",
+      "aux": "Rahul Singh",
+      "candidates": [
+        "Rinku Singh",
+        "Ramandeep Singh"
+      ]
+    }
+  ],
+  "newPlayersAdded": 1135,
+  "duplicatesResolved": 23,
+  "roleConflicts": [
+    {
+      "dataset": "sold-2023",
+      "slug": "akash-singh",
+      "name": "Akash Singh",
+      "values": [
+        "BOWLER",
+        "BATTER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "shivam-sharma",
+      "name": "Shivam Sharma",
+      "values": [
+        "BOWLER",
+        "ALL_ROUNDER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "prince-yadav",
+      "name": "Prince Yadav",
+      "values": [
+        "BOWLER",
+        "ALL_ROUNDER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "nicholas-pooran",
+      "name": "Nicholas Pooran",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "chris-jordan",
+      "name": "Chris Jordan",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "priyam-garg",
+      "name": "Priyam Garg",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "shashank-singh",
+      "name": "Shashank Singh",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "shivam-mavi",
+      "name": "Shivam Mavi",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "shreyas-gopal",
+      "name": "Shreyas Gopal",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "sherfane-rutherford",
+      "name": "Sherfane Rutherford",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "prerak-mankad",
+      "name": "Prerak Mankad",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "b-indrajith",
+      "name": "B Indrajith",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "sheldon-jackson",
+      "name": "Sheldon Jackson",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "abhijeet-tomar",
+      "name": "Abhijeet Tomar",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "pool-2023",
+      "slug": "akash-singh",
+      "name": "Akash Singh",
+      "values": [
+        "BOWLER",
+        "BATTER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "pool-2023",
+      "slug": "shivam-sharma",
+      "name": "Shivam Sharma",
+      "values": [
+        "BOWLER",
+        "ALL_ROUNDER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "pool-2023",
+      "slug": "prince-yadav",
+      "name": "Prince Yadav",
+      "values": [
+        "BOWLER",
+        "ALL_ROUNDER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "pool-2023",
+      "slug": "chris-jordan",
+      "name": "Chris Jordan",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "pool-2023",
+      "slug": "priyam-garg",
+      "name": "Priyam Garg",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "pool-2023",
+      "slug": "shashank-singh",
+      "name": "Shashank Singh",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "pool-2023",
+      "slug": "shivam-mavi",
+      "name": "Shivam Mavi",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "pool-2023",
+      "slug": "shreyas-gopal",
+      "name": "Shreyas Gopal",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "pool-2023",
+      "slug": "sherfane-rutherford",
+      "name": "Sherfane Rutherford",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "pool-2023",
+      "slug": "prerak-mankad",
+      "name": "Prerak Mankad",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "shivam-mavi",
+      "name": "Shivam Mavi",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "Bowler"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "prerak-mankad",
+      "name": "Prerak Mankad",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "ambati-rayudu",
+      "name": "Ambati Rayudu",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "shardul-thakur",
+      "name": "Shardul Thakur",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "Bowler"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "sarfaraz-khan",
+      "name": "Sarfaraz Khan",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "tim-seifert",
+      "name": "Tim Seifert",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "wriddhiman-saha",
+      "name": "Wriddhiman Saha",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "matthew-wade",
+      "name": "Matthew Wade",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "darshan-nalkande",
+      "name": "Darshan Nalkande",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "sai-sudharsan",
+      "name": "Sai Sudharsan",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "gurkeerat-singh",
+      "name": "Gurkeerat Singh",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "pradeep-sangwan",
+      "name": "Pradeep Sangwan",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "nitish-rana",
+      "name": "Nitish Rana",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "sam-billings",
+      "name": "Sam Billings",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "anukul-roy",
+      "name": "Anukul Roy",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "abhijeet-tomar",
+      "name": "Abhijeet Tomar",
+      "kept": "WICKET_KEEPER",
+      "rejected": "BATTER",
+      "raw": "Batsman"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "quinton-de-kock",
+      "name": "Quinton De Kock",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "ishan-kishan",
+      "name": "Ishan Kishan",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "dewald-brevis",
+      "name": "Dewald Brevis",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "Batsman"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "tilak-varma",
+      "name": "Tilak Varma",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "ramandeep-singh",
+      "name": "Ramandeep Singh",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "rahul-buddhi",
+      "name": "Rahul Buddhi",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "Batsman"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "jonny-bairstow",
+      "name": "Jonny Bairstow",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "shahrukh-khan",
+      "name": "Shahrukh Khan",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "jitesh-sharma",
+      "name": "Jitesh Sharma",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "prabhsimran-singh",
+      "name": "Prabhsimran Singh",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "prerak-mankad",
+      "name": "Prerak Mankad",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "dinesh-karthik",
+      "name": "Dinesh Karthik",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "anuj-rawat",
+      "name": "Anuj Rawat",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "karan-sharma",
+      "name": "Karan Sharma",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "Bowler"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "suyash-s-prabhudessai",
+      "name": "Suyash S Prabhudessai",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "shreyas-gopal",
+      "name": "Shreyas Gopal",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "Bowler"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "jagadeesha-suchith",
+      "name": "Jagadeesha Suchith",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "Bowler"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "aiden-markram",
+      "name": "Aiden Markram",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "Batsman"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "sean-abbott",
+      "name": "Sean Abbott",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "Bowler"
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "shashank-singh",
+      "name": "Shashank Singh",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "lalit-yadav",
+      "name": "Lalit Yadav",
+      "values": [
+        "ALL_ROUNDER",
+        "BOWLER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "shubham-singh",
+      "name": "Shubham Singh",
+      "values": [
+        "ALL_ROUNDER",
+        "BOWLER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "nitish-rana",
+      "name": "Nitish Rana",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "shardul-thakur",
+      "name": "Shardul Thakur",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "dewald-brevis",
+      "name": "Dewald Brevis",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "sarfaraz-khan",
+      "name": "Sarfaraz Khan",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "shahrukh-khan",
+      "name": "Shahrukh Khan",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "shreyas-gopal",
+      "name": "Shreyas Gopal",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "m-siddharth",
+      "name": "M. Siddharth",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "jagadeesha-suchith",
+      "name": "Jagadeesha Suchith",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "aiden-markram",
+      "name": "Aiden Markram",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "qais-ahmad",
+      "name": "Qais Ahmad",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "karan-sharma",
+      "name": "Karan Sharma",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "ricky-bhui",
+      "name": "Ricky Bhui",
+      "kept": "WICKET_KEEPER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "darshan-nalkande",
+      "name": "Darshan Nalkande",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "anukul-roy",
+      "name": "Anukul Roy",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "tilak-varma",
+      "name": "Tilak Varma",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "sandeep-warrier",
+      "name": "Sandeep Warrier",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "keshav-maharaj",
+      "name": "Keshav Maharaj",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "sameer-rizvi",
+      "name": "Sameer Rizvi",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "ritwik-roy-chowdhury",
+      "name": "Ritwik Roy Chowdhury",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "prerak-mankad",
+      "name": "Prerak Mankad",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "suyash-s-prabhudessai",
+      "name": "Suyash S Prabhudessai",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "ramandeep-singh",
+      "name": "Ramandeep Singh",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "sai-sudharsan",
+      "name": "Sai Sudharsan",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "prashant-chopra",
+      "name": "Prashant Chopra",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "ALL_ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "akeal-hosein",
+      "name": "Akeal Hosein",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "gurkeerat-singh",
+      "name": "Gurkeerat Singh",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "sean-abbott",
+      "name": "Sean Abbott",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "rahul-buddhi",
+      "name": "Rahul Buddhi",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "abhimanyu-easwaran",
+      "name": "Abhimanyu Easwaran",
+      "kept": "WICKET_KEEPER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "abhijeet-tomar",
+      "name": "Abhijeet Tomar",
+      "kept": "WICKET_KEEPER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "pradeep-sangwan",
+      "name": "Pradeep Sangwan",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "prerit-dutta",
+      "name": "Prerit Dutta",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "shashwat-rawat",
+      "name": "Shashwat Rawat",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "sumit-kumar",
+      "name": "Sumit Kumar",
+      "kept": "WICKET_KEEPER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "shoun-roger",
+      "name": "Shoun Roger",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "shashank-singh",
+      "name": "Shashank Singh",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "shivam-sharma",
+      "name": "Shivam Sharma",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "auqib-dar",
+      "name": "Auqib Dar",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "chirag-gandhi",
+      "name": "Chirag Gandhi",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "nathan-mcandrew",
+      "name": "Nathan McAndrew",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "saurav-chuahan",
+      "name": "Saurav Chuahan",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "bharat-sharma",
+      "name": "Bharat Sharma",
+      "kept": "WICKET_KEEPER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "yashovardhan-singh",
+      "name": "Yashovardhan Singh",
+      "kept": "WICKET_KEEPER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "shardul-thakur",
+      "name": "Shardul Thakur",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "Bowler"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "sarfaraz-khan",
+      "name": "Sarfaraz Khan",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "darshan-nalkande",
+      "name": "Darshan Nalkande",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "sai-sudharsan",
+      "name": "Sai Sudharsan",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "gurkeerat-singh",
+      "name": "Gurkeerat Singh",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "pradeep-sangwan",
+      "name": "Pradeep Sangwan",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "nitish-rana",
+      "name": "Nitish Rana",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "anukul-roy",
+      "name": "Anukul Roy",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "abhijeet-tomar",
+      "name": "Abhijeet Tomar",
+      "kept": "WICKET_KEEPER",
+      "rejected": "BATTER",
+      "raw": "Batsman"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "dewald-brevis",
+      "name": "Dewald Brevis",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "Batsman"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "tilak-varma",
+      "name": "Tilak Varma",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "ramandeep-singh",
+      "name": "Ramandeep Singh",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "rahul-buddhi",
+      "name": "Rahul Buddhi",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "Batsman"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "shahrukh-khan",
+      "name": "Shahrukh Khan",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "prerak-mankad",
+      "name": "Prerak Mankad",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "karan-sharma",
+      "name": "Karan Sharma",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "Bowler"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "suyash-s-prabhudessai",
+      "name": "Suyash S Prabhudessai",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "shreyas-gopal",
+      "name": "Shreyas Gopal",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "Bowler"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "jagadeesha-suchith",
+      "name": "Jagadeesha Suchith",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "Bowler"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "aiden-markram",
+      "name": "Aiden Markram",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "Batsman"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "sean-abbott",
+      "name": "Sean Abbott",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "Bowler"
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "shashank-singh",
+      "name": "Shashank Singh",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "All-Rounder"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "lalit-yadav",
+      "name": "Lalit Yadav",
+      "values": [
+        "ALL_ROUNDER",
+        "BOWLER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "shubham-singh",
+      "name": "Shubham Singh",
+      "values": [
+        "ALL_ROUNDER",
+        "BOWLER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "nitish-rana",
+      "name": "Nitish Rana",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "shardul-thakur",
+      "name": "Shardul Thakur",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "dewald-brevis",
+      "name": "Dewald Brevis",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "sarfaraz-khan",
+      "name": "Sarfaraz Khan",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "shahrukh-khan",
+      "name": "Shahrukh Khan",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "shreyas-gopal",
+      "name": "Shreyas Gopal",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "m-siddharth",
+      "name": "M. Siddharth",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "jagadeesha-suchith",
+      "name": "Jagadeesha Suchith",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "aiden-markram",
+      "name": "Aiden Markram",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "qais-ahmad",
+      "name": "Qais Ahmad",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "karan-sharma",
+      "name": "Karan Sharma",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "ricky-bhui",
+      "name": "Ricky Bhui",
+      "kept": "WICKET_KEEPER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "darshan-nalkande",
+      "name": "Darshan Nalkande",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "anukul-roy",
+      "name": "Anukul Roy",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "tilak-varma",
+      "name": "Tilak Varma",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "sandeep-warrier",
+      "name": "Sandeep Warrier",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "keshav-maharaj",
+      "name": "Keshav Maharaj",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "sameer-rizvi",
+      "name": "Sameer Rizvi",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "ritwik-roy-chowdhury",
+      "name": "Ritwik Roy Chowdhury",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "prerak-mankad",
+      "name": "Prerak Mankad",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "suyash-s-prabhudessai",
+      "name": "Suyash S Prabhudessai",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "ramandeep-singh",
+      "name": "Ramandeep Singh",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "sai-sudharsan",
+      "name": "Sai Sudharsan",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "akeal-hosein",
+      "name": "Akeal Hosein",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "gurkeerat-singh",
+      "name": "Gurkeerat Singh",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "sean-abbott",
+      "name": "Sean Abbott",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "rahul-buddhi",
+      "name": "Rahul Buddhi",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "abhimanyu-easwaran",
+      "name": "Abhimanyu Easwaran",
+      "kept": "WICKET_KEEPER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "abhijeet-tomar",
+      "name": "Abhijeet Tomar",
+      "kept": "WICKET_KEEPER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "pradeep-sangwan",
+      "name": "Pradeep Sangwan",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "prerit-dutta",
+      "name": "Prerit Dutta",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "shashwat-rawat",
+      "name": "Shashwat Rawat",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "sumit-kumar",
+      "name": "Sumit Kumar",
+      "kept": "WICKET_KEEPER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "shoun-roger",
+      "name": "Shoun Roger",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "shashank-singh",
+      "name": "Shashank Singh",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "shivam-sharma",
+      "name": "Shivam Sharma",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "auqib-dar",
+      "name": "Auqib Dar",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "chirag-gandhi",
+      "name": "Chirag Gandhi",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "nathan-mcandrew",
+      "name": "Nathan McAndrew",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "saurav-chuahan",
+      "name": "Saurav Chuahan",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "bharat-sharma",
+      "name": "Bharat Sharma",
+      "kept": "WICKET_KEEPER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "yashovardhan-singh",
+      "name": "Yashovardhan Singh",
+      "kept": "WICKET_KEEPER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "shivam-sharma",
+      "name": "Shivam Sharma",
+      "values": [
+        "ALL_ROUNDER",
+        "BOWLER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "akash-singh",
+      "name": "Akash Singh",
+      "values": [
+        "BATTER",
+        "BOWLER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "ansh-patel",
+      "name": "Ansh Patel",
+      "values": [
+        "BOWLER",
+        "ALL_ROUNDER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "himanshu-singh",
+      "name": "Himanshu Singh",
+      "values": [
+        "BOWLER",
+        "ALL_ROUNDER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "prince-yadav",
+      "name": "Prince Yadav",
+      "values": [
+        "BOWLER",
+        "ALL_ROUNDER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "smit-patel",
+      "name": "Smit Patel",
+      "values": [
+        "BATTER",
+        "BOWLER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "yuvraj-singh",
+      "name": "Yuvraj Singh",
+      "values": [
+        "BATTER",
+        "ALL_ROUNDER"
+      ],
+      "note": "intra-file duplicate rows disagree"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "wesley-agar",
+      "name": "Wesley Agar",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "chris-jordan",
+      "name": "Chris Jordan",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "wayne-parnell",
+      "name": "Wayne Parnell",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "ALL_ROUNDER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "sherfane-rutherford",
+      "name": "Sherfane Rutherford",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "shashank-singh",
+      "name": "Shashank Singh",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "shivam-sharma",
+      "name": "Shivam Sharma",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "milind-tandon",
+      "name": "Milind Tandon",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "prashant-chopra",
+      "name": "Prashant Chopra",
+      "kept": "WICKET_KEEPER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "shreyas-gopal",
+      "name": "Shreyas Gopal",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "anirudha-joshi",
+      "name": "Anirudha Joshi",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "pratham-singh",
+      "name": "Pratham Singh",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "prerak-mankad",
+      "name": "Prerak Mankad",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "priyam-garg",
+      "name": "Priyam Garg",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "shivam-mavi",
+      "name": "Shivam Mavi",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "akash-singh",
+      "name": "Akash Singh",
+      "kept": "BOWLER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "ansh-patel",
+      "name": "Ansh Patel",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "mayank-yadav",
+      "name": "Mayank Yadav",
+      "kept": "BOWLER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "hiten-dalal",
+      "name": "Hiten Dalal",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "mayank-rawat",
+      "name": "Mayank Rawat",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "roosh-kalaria",
+      "name": "Roosh Kalaria",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "rohit-sharma",
+      "name": "Rohit Sharma",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "sijomon-joseph",
+      "name": "Sijomon Joseph",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "naushad-shaikh",
+      "name": "Naushad Shaikh",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "BATTER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "ramesh-kumar",
+      "name": "Ramesh Kumar",
+      "kept": "BATTER",
+      "rejected": "BOWLER",
+      "raw": "BOWLER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "arjit-gupta",
+      "name": "Arjit Gupta",
+      "upgradedTo": "WICKET_KEEPER",
+      "previous": "ALL_ROUNDER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "tarang-gohel",
+      "name": "Tarang Gohel",
+      "kept": "WICKET_KEEPER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "shubham-singh-rohilla",
+      "name": "Shubham Singh Rohilla",
+      "kept": "BATTER",
+      "rejected": "ALL_ROUNDER",
+      "raw": "ALL-ROUNDER"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "pradosh-paul",
+      "name": "Pradosh Paul",
+      "kept": "ALL_ROUNDER",
+      "rejected": "BATTER",
+      "raw": "BATSMAN"
+    }
+  ],
+  "countryConflicts": [
+    {
+      "dataset": "fulllist-2022",
+      "slug": "ben-dwarshuis",
+      "name": "Ben Dwarshuis",
+      "cappedKept": true,
+      "cappedRejected": false,
+      "note": "capped-status conflict"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "kuldeep-yadav",
+      "name": "Kuldeep Yadav",
+      "cappedKept": true,
+      "cappedRejected": false,
+      "note": "capped-status conflict"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "karan-sharma",
+      "name": "Karan Sharma",
+      "cappedKept": true,
+      "cappedRejected": false,
+      "note": "capped-status conflict"
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "dunith-wellalage",
+      "name": "Dunith Wellalage",
+      "cappedKept": true,
+      "cappedRejected": false,
+      "note": "capped-status conflict"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "ben-dwarshuis",
+      "name": "Ben Dwarshuis",
+      "cappedKept": true,
+      "cappedRejected": false,
+      "note": "capped-status conflict"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "kuldeep-yadav",
+      "name": "Kuldeep Yadav",
+      "cappedKept": true,
+      "cappedRejected": false,
+      "note": "capped-status conflict"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "karan-sharma",
+      "name": "Karan Sharma",
+      "cappedKept": true,
+      "cappedRejected": false,
+      "note": "capped-status conflict"
+    },
+    {
+      "dataset": "auction-list-2022",
+      "slug": "dunith-wellalage",
+      "name": "Dunith Wellalage",
+      "cappedKept": true,
+      "cappedRejected": false,
+      "note": "capped-status conflict"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "rahul-sharma",
+      "name": "Rahul Sharma",
+      "cappedKept": true,
+      "cappedRejected": false,
+      "note": "capped-status conflict"
+    },
+    {
+      "dataset": "submitted-2023",
+      "slug": "jack-wildermuth",
+      "name": "Jack Wildermuth",
+      "cappedKept": true,
+      "cappedRejected": false,
+      "note": "capped-status conflict"
+    }
+  ],
+  "teamConflicts": [
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "n-jagadeesan",
+      "name": "N. Jagadeesan",
+      "kept": "KKR",
+      "soldTeam": "CSK",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "k-m-asif",
+      "name": "K.M. Asif",
+      "kept": "RR",
+      "soldTeam": "CSK",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "k-s-bharat",
+      "name": "K.S. Bharat",
+      "kept": "GT",
+      "soldTeam": "DC",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "mandeep-singh",
+      "name": "Mandeep Singh",
+      "kept": "KKR",
+      "soldTeam": "DC",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "tim-seifert",
+      "name": "Tim Seifert",
+      "kept": "KKR",
+      "soldTeam": "DC",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "shivam-mavi",
+      "name": "Shivam Mavi",
+      "kept": "GT",
+      "soldTeam": "KKR",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "ajinkya-rahane",
+      "name": "Ajinkya Rahane",
+      "kept": "CSK",
+      "soldTeam": "KKR",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "manish-pandey",
+      "name": "Manish Pandey",
+      "kept": "DC",
+      "soldTeam": "LSG",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "jason-holder",
+      "name": "Jason Holder",
+      "kept": "RR",
+      "soldTeam": "LSG",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "anmolpreet-singh",
+      "name": "Anmolpreet Singh",
+      "kept": "SRH",
+      "soldTeam": "MI",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "murugan-ashwin",
+      "name": "Murugan Ashwin",
+      "kept": "RR",
+      "soldTeam": "MI",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "jaydev-unadkat",
+      "name": "Jaydev Unadkat",
+      "kept": "LSG",
+      "soldTeam": "MI",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "mayank-markande",
+      "name": "Mayank Markande",
+      "kept": "SRH",
+      "soldTeam": "MI",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "daniel-sams",
+      "name": "Daniel Sams",
+      "kept": "LSG",
+      "soldTeam": "MI",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "odean-smith",
+      "name": "Odean Smith",
+      "kept": "GT",
+      "soldTeam": "PBKS",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "prerak-mankad",
+      "name": "Prerak Mankad",
+      "kept": "LSG",
+      "soldTeam": "PBKS",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "vaibhav-arora",
+      "name": "Vaibhav Arora",
+      "kept": "KKR",
+      "soldTeam": "PBKS",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "kuldeep-yadav",
+      "name": "Kuldeep Yadav",
+      "kept": "DC",
+      "soldTeam": "RR",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "karan-sharma",
+      "name": "Karan Sharma",
+      "kept": "LSG",
+      "soldTeam": "RCB",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "sherfane-rutherford",
+      "name": "Sherfane Rutherford",
+      "kept": "MI",
+      "soldTeam": "RCB",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "nicholas-pooran",
+      "name": "Nicholas Pooran",
+      "kept": "LSG",
+      "soldTeam": "SRH",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "vishnu-vinod",
+      "name": "Vishnu Vinod",
+      "kept": "MI",
+      "soldTeam": "SRH",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022-2023",
+      "slug": "romario-shepherd",
+      "name": "Romario Shepherd",
+      "kept": "LSG",
+      "soldTeam": "SRH",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "manish-pandey",
+      "name": "Manish Pandey",
+      "kept": "DC",
+      "soldTeam": "LSG",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "jason-holder",
+      "name": "Jason Holder",
+      "kept": "RR",
+      "soldTeam": "LSG",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "nicholas-pooran",
+      "name": "Nicholas Pooran",
+      "kept": "LSG",
+      "soldTeam": "SRH",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "anmolpreet-singh",
+      "name": "Anmolpreet Singh",
+      "kept": "SRH",
+      "soldTeam": "MI",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "shivam-mavi",
+      "name": "Shivam Mavi",
+      "kept": "GT",
+      "soldTeam": "KKR",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "n-jagadeesan",
+      "name": "N. Jagadeesan",
+      "kept": "KKR",
+      "soldTeam": "CSK",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "vishnu-vinod",
+      "name": "Vishnu Vinod",
+      "kept": "MI",
+      "soldTeam": "SRH",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "murugan-ashwin",
+      "name": "Murugan Ashwin",
+      "kept": "RR",
+      "soldTeam": "MI",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "ajinkya-rahane",
+      "name": "Ajinkya Rahane",
+      "kept": "CSK",
+      "soldTeam": "KKR",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "mandeep-singh",
+      "name": "Mandeep Singh",
+      "kept": "KKR",
+      "soldTeam": "DC",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "odean-smith",
+      "name": "Odean Smith",
+      "kept": "GT",
+      "soldTeam": "PBKS",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "jaydev-unadkat",
+      "name": "Jaydev Unadkat",
+      "kept": "LSG",
+      "soldTeam": "MI",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "mayank-markande",
+      "name": "Mayank Markande",
+      "kept": "SRH",
+      "soldTeam": "MI",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "karan-sharma",
+      "name": "Karan Sharma",
+      "kept": "LSG",
+      "soldTeam": "RCB",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "sherfane-rutherford",
+      "name": "Sherfane Rutherford",
+      "kept": "MI",
+      "soldTeam": "RCB",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "daniel-sams",
+      "name": "Daniel Sams",
+      "kept": "LSG",
+      "soldTeam": "MI",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "romario-shepherd",
+      "name": "Romario Shepherd",
+      "kept": "LSG",
+      "soldTeam": "SRH",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "tim-seifert",
+      "name": "Tim Seifert",
+      "kept": "KKR",
+      "soldTeam": "DC",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "prerak-mankad",
+      "name": "Prerak Mankad",
+      "kept": "LSG",
+      "soldTeam": "PBKS",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "vaibhav-arora",
+      "name": "Vaibhav Arora",
+      "kept": "KKR",
+      "soldTeam": "PBKS",
+      "season": 2022
+    },
+    {
+      "dataset": "fulllist-2022",
+      "slug": "kuldeep-yadav",
+      "name": "Kuldeep Yadav",
+      "kept": "DC",
+      "soldTeam": "RR",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "n-jagadeesan",
+      "name": "N. Jagadeesan",
+      "kept": "KKR",
+      "soldTeam": "CSK",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "k-m-asif",
+      "name": "K.M. Asif",
+      "kept": "RR",
+      "soldTeam": "CSK",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "k-s-bharat",
+      "name": "K.S. Bharat",
+      "kept": "GT",
+      "soldTeam": "DC",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "mandeep-singh",
+      "name": "Mandeep Singh",
+      "kept": "KKR",
+      "soldTeam": "DC",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "tim-seifert",
+      "name": "Tim Seifert",
+      "kept": "KKR",
+      "soldTeam": "DC",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "shivam-mavi",
+      "name": "Shivam Mavi",
+      "kept": "GT",
+      "soldTeam": "KKR",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "ajinkya-rahane",
+      "name": "Ajinkya Rahane",
+      "kept": "CSK",
+      "soldTeam": "KKR",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "manish-pandey",
+      "name": "Manish Pandey",
+      "kept": "DC",
+      "soldTeam": "LSG",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "jason-holder",
+      "name": "Jason Holder",
+      "kept": "RR",
+      "soldTeam": "LSG",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "anmolpreet-singh",
+      "name": "Anmolpreet Singh",
+      "kept": "SRH",
+      "soldTeam": "MI",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "murugan-ashwin",
+      "name": "Murugan Ashwin",
+      "kept": "RR",
+      "soldTeam": "MI",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "jaydev-unadkat",
+      "name": "Jaydev Unadkat",
+      "kept": "LSG",
+      "soldTeam": "MI",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "mayank-markande",
+      "name": "Mayank Markande",
+      "kept": "SRH",
+      "soldTeam": "MI",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "daniel-sams",
+      "name": "Daniel Sams",
+      "kept": "LSG",
+      "soldTeam": "MI",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "odean-smith",
+      "name": "Odean Smith",
+      "kept": "GT",
+      "soldTeam": "PBKS",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "prerak-mankad",
+      "name": "Prerak Mankad",
+      "kept": "LSG",
+      "soldTeam": "PBKS",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "vaibhav-arora",
+      "name": "Vaibhav Arora",
+      "kept": "KKR",
+      "soldTeam": "PBKS",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "kuldeep-yadav",
+      "name": "Kuldeep Yadav",
+      "kept": "DC",
+      "soldTeam": "RR",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "karan-sharma",
+      "name": "Karan Sharma",
+      "kept": "LSG",
+      "soldTeam": "RCB",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "sherfane-rutherford",
+      "name": "Sherfane Rutherford",
+      "kept": "MI",
+      "soldTeam": "RCB",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "nicholas-pooran",
+      "name": "Nicholas Pooran",
+      "kept": "LSG",
+      "soldTeam": "SRH",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "vishnu-vinod",
+      "name": "Vishnu Vinod",
+      "kept": "MI",
+      "soldTeam": "SRH",
+      "season": 2022
+    },
+    {
+      "dataset": "sold-2022",
+      "slug": "romario-shepherd",
+      "name": "Romario Shepherd",
+      "kept": "LSG",
+      "soldTeam": "SRH",
+      "season": 2022
+    }
+  ],
+  "teamUpdates": [
+    {
+      "dataset": "sold-2023",
+      "slug": "mayank-agarwal",
+      "name": "Mayank Agarwal",
+      "from": "PBKS",
+      "to": "SRH",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "ajinkya-rahane",
+      "name": "Ajinkya Rahane",
+      "from": "KKR",
+      "to": "CSK",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "kane-williamson",
+      "name": "Kane Williamson",
+      "from": "SRH",
+      "to": "GT",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "jason-holder",
+      "name": "Jason Holder",
+      "from": "LSG",
+      "to": "RR",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "odean-smith",
+      "name": "Odean Smith",
+      "from": "PBKS",
+      "to": "GT",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "nicholas-pooran",
+      "name": "Nicholas Pooran",
+      "from": "SRH",
+      "to": "LSG",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "jaydev-unadkat",
+      "name": "Jaydev Unadkat",
+      "from": "MI",
+      "to": "LSG",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "mayank-markande",
+      "name": "Mayank Markande",
+      "from": "MI",
+      "to": "SRH",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "anmolpreet-singh",
+      "name": "Anmolpreet Singh",
+      "from": "MI",
+      "to": "SRH",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "vaibhav-arora",
+      "name": "Vaibhav Arora",
+      "from": "PBKS",
+      "to": "KKR",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "shivam-mavi",
+      "name": "Shivam Mavi",
+      "from": "KKR",
+      "to": "GT",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "murugan-ashwin",
+      "name": "Murugan Ashwin",
+      "from": "MI",
+      "to": "RR",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "manish-pandey",
+      "name": "Manish Pandey",
+      "from": "LSG",
+      "to": "DC",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "mandeep-singh",
+      "name": "Mandeep Singh",
+      "from": "DC",
+      "to": "KKR",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "daniel-sams",
+      "name": "Daniel Sams",
+      "from": "MI",
+      "to": "LSG",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "romario-shepherd",
+      "name": "Romario Shepherd",
+      "from": "SRH",
+      "to": "LSG",
+      "season": 2023
+    },
+    {
+      "dataset": "sold-2023",
+      "slug": "prerak-mankad",
+      "name": "Prerak Mankad",
+      "from": "PBKS",
+      "to": "LSG",
+      "season": 2023
+    }
+  ],
+  "priceConflicts": [],
+  "wicketKeepers": 157,
+  "wkUpgradedFromBase": [
+    "abhijeet-tomar",
+    "ambati-rayudu",
+    "anuj-rawat",
+    "arjit-gupta",
+    "b-indrajith",
+    "dinesh-karthik",
+    "ishan-kishan",
+    "jitesh-sharma",
+    "jonny-bairstow",
+    "matthew-wade",
+    "naushad-shaikh",
+    "nicholas-pooran",
+    "prabhsimran-singh",
+    "prashant-chopra",
+    "pratham-singh",
+    "quinton-de-kock",
+    "rohit-sharma",
+    "sam-billings",
+    "sheldon-jackson",
+    "tim-seifert",
+    "wayne-parnell",
+    "wriddhiman-saha"
+  ],
+  "missingStats": 1135,
+  "withAuctionHistory": 775,
+  "baseIssues": []
+}
