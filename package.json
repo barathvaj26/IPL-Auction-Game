@@ -10,6 +10,7 @@
     "build:players": "node scripts/buildPlayerDatabase.js",
     "audit:players": "node scripts/auditPlayerDatasets.js",
     "test:pool": "node scripts/testAuctionPool.js",
+    "test:value": "node scripts/testPlayerValueEngineV2.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
