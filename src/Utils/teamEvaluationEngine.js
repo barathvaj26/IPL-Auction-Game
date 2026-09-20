@@ -591,6 +591,7 @@ export const evaluateTeam = (teamInput = {}, options = {}) => {
     teamName,
     squadSize: totalPlayers,
     overallScore,
+    squad: squadEvals,
 
     categories: categoriesObj,
 

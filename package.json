@@ -12,6 +12,8 @@
     "test:pool": "node scripts/testAuctionPool.js",
     "test:value": "node scripts/testPlayerValueEngineV2.js",
     "test:team": "node scripts/testTeamEvaluationEngine.js",
+    "test:compare": "node scripts/testTeamComparisonEngine.js",
+    "test:analysis": "node scripts/testAuctionResultsAnalyzer.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
