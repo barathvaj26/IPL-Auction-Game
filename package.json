@@ -11,6 +11,7 @@
     "audit:players": "node scripts/auditPlayerDatasets.js",
     "test:pool": "node scripts/testAuctionPool.js",
     "test:value": "node scripts/testPlayerValueEngineV2.js",
+    "test:team": "node scripts/testTeamEvaluationEngine.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
